@@ -16,6 +16,19 @@
     </section>
     <h1>Welcome to Project 1</h1>
     <h2>Here you can see top 10 movies of all time!</h2>
+
+    <section class="filter-section">
+        <label for="filter">Sort Movies:</label>
+        <select id="filter">
+            <option value="" disabled selected>Select</option>
+            <option value="year-asc">Year (Ascending)</option>
+            <option value="year-desc">Year (Descending)</option>
+            <option value="title-asc">Title (Ascending)</option>
+            <option value="title-desc">Title (Descending)</option>
+        </select>
+        <button id="resetFilter">Reset Filter</button>
+    </section>
+
     <section class="movies">
         <ol>
             <a href="/blog/shawshank.html">
@@ -190,5 +203,6 @@
         </a>
         </ol>
 </section>
+<script src="script.js"></script>
 </body>
 </html>

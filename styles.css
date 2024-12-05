@@ -165,11 +165,16 @@ h1 {
 
 .blog-post-preview a {
     text-decoration: none;
-    color: inherit;
+    color: #000000;
 }
 
-.blog-post-preview a:hover {
-    color: #36b136;
+.blog-post-preview:hover {
+    background-color: #000000;
+}
+
+.blog-post-preview:hover h2, 
+.blog-post-preview:hover p {
+    color: #ffffff; 
 }
 
 
@@ -211,4 +216,25 @@ h1 {
 
 .contact-form button:hover {
     background-color: #2a8a2a;
+}
+
+
+/* Filter */
+
+.filter-section {
+    display: flex;
+    justify-content: right;
+    margin: 20px 0;
+}
+
+.filter-section label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.filter-section select {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
 }
